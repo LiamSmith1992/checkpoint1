@@ -1,0 +1,63 @@
+.bg-image {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSHLajjed6lICOyfcsBG8y6x0OoDhz6amblA&usqp=CAU);
+  min-height: 50vh;
+  background-repeat: none;
+}
+
+.bg-grey {
+  background-color: rgb(176, 162, 162);
+}
+
+.cardy {
+  height: 120px;
+  width: 180px;
+}
+
+.cardy2 {
+  height: 180px;
+  width: 180px;
+
+}
+
+.image-size {
+  height: 65vh;
+  width: 59vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .move-down {
+
+    transform: translateY(8vh);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .make-column {
+    flex-direction: column;
+  }
+
+}
+
+
+
+.move-right {
+  transform: translateX(8vh);
+}
+
+.font-creepy {
+  font-family: 'Creepster', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+.minus-mx {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
